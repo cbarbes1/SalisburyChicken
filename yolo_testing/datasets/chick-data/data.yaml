@@ -1,0 +1,6 @@
+train: /home/usboot/CodeZone/repos/yolo_testing/datasets/chick-data/train/images
+val: /home/usboot/CodeZone/repos/yolo_testing/datasets/chick-data/valid/images
+val: /home/usboot/CodeZone/repos/yolo_testing/datasets/chick-data/test/images
+
+nc: 1
+names: ['chicks']
