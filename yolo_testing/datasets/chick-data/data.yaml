@@ -1,6 +1,13 @@
-train: /home/usboot/CodeZone/repos/yolo_testing/datasets/chick-data/train/images
-val: /home/usboot/CodeZone/repos/yolo_testing/datasets/chick-data/valid/images
-val: /home/usboot/CodeZone/repos/yolo_testing/datasets/chick-data/test/images
+train: /home/usboot/CodeZone/repos/SalisburyChicken/yolo_testing/datasets/chick-data/train/images
+val: /home/usboot/CodeZone/repos/SalisburyChicken/yolo_testing/datasets/chick-data/valid
+test: /home/usboot/CodeZone/repos/SalisburyChicken/yolo_testing/datasets/chick-data/test
 
 nc: 1
 names: ['chicks']
+
+roboflow:
+  workspace: salisbury-university
+  project: chick-data
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/salisbury-university/chick-data/dataset/2
