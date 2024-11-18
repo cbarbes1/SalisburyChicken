@@ -8,6 +8,6 @@ names: ['chicks']
 roboflow:
   workspace: salisbury-university
   project: chick-data
-  version: 2
+  version: 3
   license: CC BY 4.0
-  url: https://universe.roboflow.com/salisbury-university/chick-data/dataset/2
+  url: https://universe.roboflow.com/salisbury-university/chick-data/dataset/3
