@@ -1,6 +1,6 @@
 train: /home/cbarbes1/repos/SalisburyChicken/yolo_testing/datasets/chick-data/train/images
-val: /home/cbarbes1/repos/SalisburyChicken/yolo_testing/datasets/chick-data/valid
-test: /home/cbarbes1/repos/SalisburyChicken/yolo_testing/datasets/chick-data/test
+val: /home/cbarbes1/repos/SalisburyChicken/yolo_testing/datasets/chick-data/valid/images
+test: /home/cbarbes1/repos/SalisburyChicken/yolo_testing/datasets/chick-data/test/images
 
 nc: 1
 names: ['chicks']
@@ -8,6 +8,6 @@ names: ['chicks']
 roboflow:
   workspace: salisbury-university
   project: chick-data
-  version: 3
+  version: 4
   license: CC BY 4.0
-  url: https://universe.roboflow.com/salisbury-university/chick-data/dataset/3
+  url: https://universe.roboflow.com/salisbury-university/chick-data/dataset/4
